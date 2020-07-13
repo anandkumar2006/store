@@ -1,0 +1,34 @@
+
+https://mysite.jci.com/personal/clin127_jci_com/Documents/Forms/All.aspx?RootFolder=%2fpersonal%2fclin127%5fjci%5fcom%2fDocuments%2fJCHVRF%2ftrial%20version%2fV4%2e8%2e3&FolderCTID=0x01200070FE101108060C48A2A2C2F8D778103B
+
+1878, 1894, 3716
+
+DUPI-131Q, DUPI-15H2Q, DUPI-361Q
+-----------------------------------------
+
+ANZ
+"PSC-A1T" "PSC-AD128EX"
+Controller.Model == "PSC-AD128EX"
+
+JCTA121EWS
+
+
+SELECT DISTINCT PowerSupply,PowerLineType From JCHVRF_CentralController 
+Where instr(RegionCode,'BGD')>0 AND BrandCode='Y' AND Model_Hitachi = 'JCTA121EWS' 
+
+P-AP160NA3
+P-GP160NAP, P-GP160NAPU, P-GP160KAP, P-AP160KA3, P-AP160NAE2, 
+Air Panel with motion sensor	P-AP160NAE2
+
+select * from jchvrf_piping_multi_CH_BOX where
+Region like '*/MAL/*' and Series like '*;Commercial VRF HR, FSXNS;*' and (SizeUP='NA' or SizeUP='FALSE') and MinCapacity <=2 and MaxCapacity >= 2 and MaxBranches>=1 and MaxCapacityPerBranch>=2 and MaxIUPerBranch>=1
+
+select * from jchvrf_piping_multi_CH_BOX where Region like '*/MAL/*' and Series like '*;Commercial VRF HR, FSXNS;*' and (SizeUP='NA' or SizeUP='FALSE') and MinCapacity <=6 and MaxCapacity >= 6 and MaxBranches>=1 and MaxCapacityPerBranch>=6 and MaxIUPerBranch>=3
+
+MH-84AN1
+-------------------------------------------
+
+https://epass.jantasamvad.org/train/passenger/
+------------------------------------------
+http://farmech.bih.nic.in/FMNEW/contactus.aspx
+----------------
